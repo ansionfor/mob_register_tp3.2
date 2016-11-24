@@ -1,0 +1,15 @@
+[ 2016-03-28T22:51:14+08:00 ] ::1 /
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2016-03-28T22:51:35+08:00 ] ::1 /
+ERR: SQLSTATE[42000] [1049] Unknown database 'weixin'
+
+[ 2016-03-28T23:15:36+08:00 ] ::1 /register/index.php/Index/skin/WdatePicker.css
+ERR: 非法操作:skin
+
+[ 2016-03-28T23:15:36+08:00 ] ::1 /register/index.php/Index/jweixin-1.0.0.js
+ERR: 非法操作:jweixin-1.0.0.js
+
+[ 2016-03-28T23:15:36+08:00 ] ::1 /register/index.php/Index/My97DatePicker.htm
+ERR: 非法操作:My97DatePicker.htm
+

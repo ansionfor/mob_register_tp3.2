@@ -1,0 +1,12 @@
+[ 2016-02-22T18:17:23+08:00 ] ::1 /index.php/system/authcode.php?lang=en&autcod=1&cs=1&action_ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:System
+
+[ 2016-02-22T21:27:32+08:00 ] ::1 /index.php/system/authcode.php?lang=en&autcod=1&cs=1&action_ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:System
+

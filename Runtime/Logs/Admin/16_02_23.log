@@ -1,0 +1,54 @@
+[ 2016-02-23T10:03:39+08:00 ] ::1 /index.php/Admin/design.html
+ERR: 无法加载控制器:Design
+
+[ 2016-02-23T10:14:20+08:00 ] ::1 /index.php/Admin/Index
+ERR: Think\Controller:_initialize方法不存在！
+
+[ 2016-02-23T10:19:04+08:00 ] ::1 /index.php/Admin/%3C%7B/index.php/Admin/Index%7D%3E/Index/index
+ERR: 无法加载控制器:
+
+[ 2016-02-23T10:19:16+08:00 ] ::1 /index.php/Admin/%3C%7B/index.php/Admin/Index%7D%3E/Index/index
+ERR: 无法加载控制器:
+
+[ 2016-02-23T10:21:21+08:00 ] ::1 /index.php/Admin/
+ERR: 1146:Table 'sq_chinafor8.weixin_weixin_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_weixin_admin`
+
+[ 2016-02-23T10:28:25+08:00 ] ::1 /index.php/Admin/
+ERR: 1146:Table 'sq_chinafor8.weixin_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `weixin_admin`
+
+[ 2016-02-23T10:29:14+08:00 ] ::1 /index.php/Admin/
+ERR: Think\Model:selected方法不存在！
+
+[ 2016-02-23T10:29:19+08:00 ] ::1 /index.php/Admin/Index/index
+ERR: Think\Model:selected方法不存在！
+
+[ 2016-02-23T10:29:32+08:00 ] ::1 /index.php/Admin/Index/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `weixin_admin` WHERE ( name= ) 
+
+[ 2016-02-23T10:29:44+08:00 ] ::1 /index.php/Admin
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `weixin_admin` WHERE ( name= ) 
+
+[ 2016-02-23T10:46:25+08:00 ] ::1 /index.php/Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `weixin_admin` WHERE ( name= ) 
+
+[ 2016-02-23T10:46:39+08:00 ] ::1 /index.php/Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `weixin_admin` WHERE ( name= ) 
+
+[ 2016-02-23T10:46:52+08:00 ] ::1 /index.php/Admin/Index/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `weixin_admin` WHERE ( name= ) 
+
+[ 2016-02-23T10:51:19+08:00 ] ::1 /index.php/Admin/Index/index.html
+ERR: 1054:Unknown column 'ansion' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `weixin_admin` WHERE ( name=ansion ) 
+
+[ 2016-02-23T10:53:39+08:00 ] ::1 /index.php/Admin/Index/index.html
+ERR: 1054:Unknown column 'ansion' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `weixin_admin` WHERE ( name=ansion ) LIMIT 1  
+

@@ -1,0 +1,6 @@
+<IfModule mod_rewrIte.c>
+ RewrIteEngIne on
+ RewrIteCond %{REQUEST_FILENAME} !-d
+ RewrIteCond %{REQUEST_FILENAME} !-f
+ RewrIteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+</IfModule>
